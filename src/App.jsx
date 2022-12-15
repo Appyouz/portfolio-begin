@@ -1,8 +1,17 @@
 import React from 'react';
-
+import Home from './components/Home.jsx' 
 const App = () => {
   return (
-  <h1>Hi</h1>
+  <main>
+      {/*
+     About 
+     Contact
+     Projects
+     Blogs
+*/}
+ 
+      <Home />
+    </main>
   )
 }
 
