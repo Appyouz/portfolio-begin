@@ -14,24 +14,9 @@
   scroll-behavior: smooth;
 }
 
- .top-section {
-   /* background: red; */
-   width: 50%;
-   margin:auto;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 60px;
-    
- }
-
- .top-section .title {
-   width: 300px;
-   margin: auto;
-   text-align: center;
-   color: white;
- }
-
+.main-section {
+  /* position: relative; */
+}
  .nav-lists {
    /* margin-left:auto; */
    text-align:right;
@@ -52,19 +37,54 @@
    background: blue;
    display: flex;
    height: 100vh;
+   position: relative;
+ }
+
+ .mid-section .mid-section-text {
+   background:green;
+   height:25px;
+   width: 25px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin: -25px 0 0 -25px;
+   overflow:hidden;
+
  }
 
 .left-section {
    background: #f65f53;
    flex: 1;
+   position:relative;
+ }
+ .mid-section .left-section .left-section-text {
+    width:25px;
+    height:50px;
+    background:red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    overflow:hidden;
  }
 
  .right-section {
    background: #000;
    flex: 1;
-   color:#fff
+   color:#fff;
+   position:relative;
  }
-
+ .mid-section .right-section .right-section-text {
+   background:purple;
+   height:25px;
+   width: 25px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin: -25px 0 0 -25px;
+   overflow:hidden;
+   
+ }
 .bottom-section {
     content: '';
     position: fixed;

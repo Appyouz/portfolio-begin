@@ -10,21 +10,20 @@ const Home = () => {
     return (
     <main className="main-section">
 
-      <div className="top-section">
+     {/*  <div className="top-section">
         <h1 className="title">title</h1>
-         <nav>
-            <ul className="nav-lists">
-              {/* <li className="nav-links"><a href="">about</a></li>
-              <li className="nav-links"><a href="">work</a></li> */}
-              <a className="nav-links" href="">work</a> 
-              <a className="nav-links" href="<About />"> about</a>
-            </ul>
-          </nav>
-      </div>
-      
+     </div> */}     
       <section className="mid-section">
-        <div className="left-section"></div>
-        <div className="right-section"></div>
+        <div className="left-section">
+          <div className="left-section-text">
+            Want to know more about me?
+          </div>
+        </div>
+          <div className="mid-section-text">OR</div>
+        <div className="right-section">
+          <div className="right-section-text">Want to see my works?
+          </div>
+        </div>
       </section>
 
 
