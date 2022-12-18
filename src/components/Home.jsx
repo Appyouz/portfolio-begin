@@ -9,32 +9,38 @@ import {FaLinkedin} from 'react-icons/fa'
 const Home = () => {
     return (
     <main className="main-section">
-
-     {/*  <div className="top-section">
-        <h1 className="title">title</h1>
-     </div> */}     
-      <section className="mid-section">
-        <div className="left-section">
-          <div className="left-section-text">
-            Want to know more about me?
-          </div>
-        </div>
-          <div className="mid-section-text">OR</div>
-        <div className="right-section">
-          <div className="right-section-text">Want to see my works?
-          </div>
-        </div>
-      </section>
-
-
-      <div className="bottom-section">
+      <div className="center">
+        <div className="bottom-section">
         <div className="social-links">
           <a href=""><FaInstagram className="ok" /></a>
           <a href=""><FaFacebook /></a>
           <a href=""><FaLinkedin /></a>
-          <a href=""> get in touch</a>
         </div>
       </div>
+      </div>
+
+      <div className="top-section">
+      <section className="mid-section">
+        <div className="left-section split-section">
+          <div className="text-content left-section-text prio">
+              <div className="bold">want to know more</div>
+              <div className="big">about me?</div>
+          </div>
+            <button className="button left-section-btn prio">click</button>
+        </div>
+          <div className="text-content mid-section-text">OR</div>
+        <div className="right-section split-section prio">
+          <div className="text-content right-section-text prio">
+              <div className="bold">want to see</div>
+              <div className="big">my works?</div>
+          
+          </div>
+            <button className="button right-section-btn prio">click</button>
+        </div>
+      </section>
+
+    </div>
+
     </main>
     )
 }
