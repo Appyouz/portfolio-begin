@@ -45,24 +45,23 @@ html, body , .main-section{
 
  .mid-section .mid-section-text {
    background:green;
-   height:25px;
-   width: 25px;
+   background: url("../../assets/icons/index.png");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   height:55px;
+   width: 55px;
    position: absolute;
    top: 50%;
    left: 47%;
    margin: -25px 0 0 -25px;
    overflow:hidden;
 
-  /* content: ''; */
-  /* position: fixed; */
-  /* bottom: 0; */
   position: absolute;
-  top: 50%;
-  left:51%;
+  top: 43%;
+  left:50%;
   z-index:999;
-  /* transform: translate(0, -50%); */
-  /* margin: auto; */
-  /* height:100px; */
   padding: 10px;
   font-size: 20px;
  overflow:hidden;
@@ -203,14 +202,17 @@ html, body , .main-section{
   /* margin: auto; */
   /* height:100px; */
   padding: 10px;
-  font-size: 20px;
  overflow:hidden;
 
  }
 
  .bottom-section  a{
   text-decoration:none;
-  color:black;
+  color:lavenderblush;
+  /* margin-top: 2px; */
+  padding-top:5px;
+
+  font-size: 27px;
  }
 
  .bottom-section .social-links a:hover {

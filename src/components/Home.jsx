@@ -28,7 +28,8 @@ const Home = () => {
           </div>
             <button className="button left-section-btn prio">click</button>
         </div>
-          <div className="text-content mid-section-text">OR</div>
+          <div className="text-content mid-section-text">
+          </div>
         <div className="right-section split-section prio">
           <div className="text-content right-section-text prio">
               <div className="bold">want to see</div>
