@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding:0; 
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; 
+  outline: none; border:none;
+  text-decoration: none;
+  transition:all .2s linear;
+  transition:width none;
+  transition: all 0.4s ease;
+  overflow-x: hidden;
+  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+}
+
+
+
+
+ 
+ 
