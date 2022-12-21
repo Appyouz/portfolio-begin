@@ -10,7 +10,9 @@ import {FaLinkedin} from 'react-icons/fa'
 const About = () => {
   return (
   <>
+     
    <main className="main-section about-main-section">
+
       <div className="center">
         <div className="bottom-section">
         <div className="social-links">
@@ -22,32 +24,33 @@ const About = () => {
       </div>
 
 
-     <section className="mid-section">
-        <div className="about-section split-section">
-            <div className="image-container">
-              <img src="/assets/profile.jpg" alt="" className="about-pic" />
-            </div>
-           <div className="introduction">
-                  <p>begin Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Iusto nostrum reiciendis quaerat ipsam dicta enim autem sapiente 
-                quo pariatur ipsum non, provident placeat maxime velit alias fugit 
-                sint totam dolorum.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eius!
-               Modi dolores hic nulla sit blanditiis aliquid id autem ex, eum fugiat aliquam inventore qui accusantium rem earum magnam nemo.</p>
-               <br /> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Iusto nostrum reiciendis quaerat ipsam dicta enim autem sapiente 
-                quo pariatur ipsum non, provident placeat maxime velit alias fugit 
-                sint totam dolorum. end</p>
-           </div>
-        </div>   
+     <section className="mid-section about-page">
 
-          <div className="right-section split-section prio">
-            <div className="text-content right-section-text prio">
-                <div className="bold">want to see</div>
-                <div className="big">my works?</div>
-            </div>
-            <button className="button right-section-btn prio">click</button>
+       <div className="about-image-section split-section">
+       <div className="image-container">
+              <img src="/assets/pro.jpg" alt="" />
+      </div>
+       <div className="details-container">
+          <h3 className="name-title"><span>Mrs.</span>Random Name</h3>
+          <span>B.Arch (2020)</span>
+          <br />
+          <br />
+          <p className="quote">“We need houses as we need clothes, 
+            architecture stimulates fashion.<br/> 
+            It’s like hunger and thirst — you need them both.”
+                <br/>―<span> Karl Lagerfeld</span> </p>
+                <br />
+       </div>
+        </div>
+          <div className="about-text-section split-section prio">
+            <h3 className="about-me-title">About me</h3>
+            <p>I'm an award-winning content writer who has eight years 
+              of experience creating compelling articles and short stories.
+              I'm continuously searching for new topics and stories to capture 
+              the attention of new readers. With my knowledge and experience, 
+              I can help you fulfill your content creation goals.</p>
           </div>
+
 
 
      </section>

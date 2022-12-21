@@ -1,5 +1,6 @@
 import React from 'react';
-import Home from './components/Home.jsx' 
+import Home from './components/Home/Home.jsx' 
+import About from './components/About/About.jsx' 
 const App = () => {
   return (
   <main>
@@ -8,9 +9,12 @@ const App = () => {
      Contact
      Projects
      Blogs
-*/}
+*/
+
+      // <Home />
+      <About />
+    }
  
-      <Home />
     </main>
   )
 }
